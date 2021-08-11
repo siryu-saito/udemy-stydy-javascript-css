@@ -3,8 +3,8 @@ body {
 }
 
 #container {
-  position: relative;
   height: 100vh;
+  position: relative;
   background-color: teal;
 }
 
@@ -15,22 +15,19 @@ body {
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   color: white;
-  opacity: 0;
-  font-size: 1.8em;
 }
 
 .animate-title.inview {
-  opacity: 1;
+  display: inline-block;
 }
 
 .animate-title.inview .char {
-  display: inline-block;
   -webkit-animation-name: kf-animate-chars;
           animation-name: kf-animate-chars;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
-  -webkit-animation-timing-function: cubic-bezier(0.39, 1.57, 0.58, 1);
-          animation-timing-function: cubic-bezier(0.39, 1.57, 0.58, 1);
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
   -webkit-animation-delay: 0s;
           animation-delay: 0s;
   -webkit-animation-iteration-count: 1;

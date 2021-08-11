@@ -13,7 +13,7 @@ $cBlack: black;
 
     @for $i from 1 through 2 {
       &:nth-child(#{$i}) {
-        animation-delay: -0.32s /$i;
+        animation-delay: -0.32s / $i;
       }
     }
   }

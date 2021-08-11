@@ -12,9 +12,9 @@ body {
   animation: sk-bouncedelay 1.4s;
   animation-timing-function: ease;
   // animation-delay: 3s;
-  animation-iteration-count: 4;
-  animation-direction: alternate;
-  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  // animation-fill-mode: alternate;
 }
 
 .paused {
@@ -24,15 +24,12 @@ body {
 @keyframes sk-bouncedelay {
   0% {
     transform: scale(0);
-    background-color: black;
   }
-
   50% {
     transform: scale(2);
   }
-
   100% {
     transform: scale(1);
-    background-color: green;
+    background-color: red;
   }
 }

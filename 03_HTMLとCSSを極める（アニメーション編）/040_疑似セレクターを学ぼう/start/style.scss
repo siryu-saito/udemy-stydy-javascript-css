@@ -22,14 +22,8 @@ div {
   & span {
     color: olive;
 
-    &:not(.cls) {
+    &:nth-child(odd) {
       color: purple;
     }
-
-    // &:nth-child(2n + 1) {
-    //   color: purple;
-    // }
   }
-
-
 }

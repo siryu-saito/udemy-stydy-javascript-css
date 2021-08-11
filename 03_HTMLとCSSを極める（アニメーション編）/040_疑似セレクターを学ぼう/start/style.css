@@ -22,7 +22,7 @@ div span {
   color: olive;
 }
 
-div span:not(.cls) {
+div span:nth-child(odd) {
   color: purple;
 }
 /*# sourceMappingURL=style.css.map */
